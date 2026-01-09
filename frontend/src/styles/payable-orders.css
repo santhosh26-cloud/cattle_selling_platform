@@ -1,0 +1,60 @@
+.payable-container {
+  padding: 20px;
+}
+
+.payable-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.payable-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.payable-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payable-table th {
+  background: #f0f2f5;
+  padding: 12px;
+  text-align: left;
+}
+
+.payable-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.badge.pending {
+  background: #ff9800;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 6px;
+}
+
+.pay-btn {
+  background: #2575fc;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.pay-btn:hover {
+  background: #1b5fd1;
+}
+
+.no-orders {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #666;
+}

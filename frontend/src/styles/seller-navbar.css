@@ -1,0 +1,143 @@
+/* ================================
+   SELLER NAVBAR STYLING
+================================*/
+.seller-navbar {
+  width: 100%;
+  height: 65px;
+  background: #1e1e2f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
+/* Left Section */
+.seller-navbar .nav-left h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* Right Section */
+.seller-navbar .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Logout Button */
+.logout-btn {
+  background: #ff4757;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #e84141;
+  transform: scale(1.05);
+}
+
+/* ================================
+   NOTIFICATION BELL
+================================*/
+.notification-bell {
+  position: relative;
+  font-size: 22px;
+  cursor: pointer;
+  color: #ffd32a;
+  transition: 0.3s ease;
+}
+
+.notification-bell:hover {
+  transform: scale(1.15);
+}
+
+/* Notification count badge */
+.notification-count {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: #ff4757;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* ================================
+   DROPDOWN PANEL
+================================*/
+.notification-dropdown {
+  position: absolute;
+  right: 0;
+  top: 65px;
+  width: 280px;
+  background: #2c2c3e;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  padding: 10px 0;
+  transform-origin: top right;
+  animation: dropdownFade 0.25s ease;
+}
+
+@keyframes dropdownFade {
+  from { opacity: 0; transform: scale(0.9); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.notification-item {
+  padding: 12px 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.notification-item:hover {
+  background: rgba(255,255,255,0.07);
+}
+
+.no-notification {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* ================================
+   MOBILE RESPONSIVE
+================================*/
+@media (max-width: 768px) {
+  .seller-navbar {
+    padding: 0 15px;
+    height: 60px;
+  }
+
+  .seller-navbar .nav-left h2 {
+    font-size: 18px;
+  }
+
+  .nav-right {
+    gap: 15px;
+  }
+
+  .logout-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+}

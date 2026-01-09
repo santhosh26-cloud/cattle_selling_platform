@@ -1,0 +1,76 @@
+.profile-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  width: 450px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+}
+
+.profile-card h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1d4ed8;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.primary-btn:hover {
+  background: #0b3bb3;
+}
+
+.msg {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+}
+
+.profile-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 300px;
+}
+
+.action-btn {
+  padding: 12px;
+  display: block;
+  background: #f1f5f9;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #111827;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.action-btn:hover {
+  background: #e2e8f0;
+}

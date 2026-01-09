@@ -1,0 +1,92 @@
+/* CONTAINER */
+.seller-orders-container {
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* TABLE CARD */
+.orders-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th {
+  background: #f4f6f8;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+}
+
+.orders-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+/* BADGES */
+.status-badge,
+.payment-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+/* ORDER STATUS COLORS */
+.status-badge.pending { background: #ffc107; }
+.status-badge.accepted { background: #28a745; }
+.status-badge.rejected { background: #dc3545; }
+
+/* PAYMENT STATUS COLORS */
+.payment-badge.paid { background: #28a745; }
+.payment-badge.pending { background: #ffc107; }
+.payment-badge.failed { background: #dc3545; }
+
+/* ACTION BUTTONS */
+.action-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.accept-btn {
+  background: #28a745;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background: #dc3545;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.accept-btn:hover,
+.reject-btn:hover {
+  opacity: 0.8;
+}
+
+.no-action {
+  color: #999;
+  font-size: 14px;
+}
+
+.no-orders {
+  text-align: center;
+  padding-top: 20px;
+  color: #777;
+}

@@ -1,0 +1,93 @@
+/* Container */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 80vh;
+  padding: 40px 20px;
+  background: #f3f4f6;
+}
+
+/* Card */
+.form-card {
+  width: 420px;
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Title */
+.form-card h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #111827;
+}
+
+/* Label */
+.form-card label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  color: #374151;
+}
+
+/* Input + Textarea */
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.form-textarea {
+  height: 90px;
+  resize: none;
+}
+
+/* Button */
+.form-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Message */
+.form-message {
+  margin-top: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Success + Error colors */
+.success {
+  color: #10b981;
+}
+
+.error {
+  color: #ef4444;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

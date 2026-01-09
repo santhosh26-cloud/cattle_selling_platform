@@ -1,0 +1,70 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 90vh;
+  background: #f3f4f6;
+}
+
+.profile-card {
+  background: white;
+  padding: 30px;
+  width: 420px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.4s ease;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.profile-header i {
+  font-size: 32px;
+  color: #4f46e5;
+}
+
+.profile-card h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.profile-row {
+  margin: 12px 0;
+  padding: 10px 12px;
+  background: #f9fafb;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.profile-row span {
+  font-weight: 600;
+  color: #374151;
+}
+
+.edit-profile-link {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 14px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.edit-profile-link:hover {
+  background: #1d4ed8;
+}
+
+/* Smooth entrance animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}

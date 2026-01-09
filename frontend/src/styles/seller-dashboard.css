@@ -1,0 +1,206 @@
+.seller-container {
+  padding: 20px;
+}
+
+.seller-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.seller-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 360px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.seller-field {
+  margin-bottom: 15px;
+}
+
+.seller-field input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.seller-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.seller-btn:hover {
+  background: #187bcd;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cattle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.cattle-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+.cattle-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cattle-info {
+  margin-top: 10px;
+}
+
+.status-badge {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.available {
+  background: #d4f7d4;
+  color: #0a8a0a;
+}
+
+.sold {
+  background: #ffd8d8;
+  color: #b10000;
+}
+
+.delete-btn {
+  margin-top: 12px;
+  width: 100%;
+  background: #ff4d4d;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #d93636;
+}
+
+.empty-text {
+  font-size: 16px;
+  color: #888;
+}
+.edit-btn {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.edit-btn:hover {
+  background-color: #1976d2;
+}
+/* 
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.tag-btn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1.5px solid #b0bec5;
+  background: #eceff1;
+  color: #37474f;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-size: 13px;
+  user-select: none;
+}
+
+.tag-btn:hover {
+  background: #dfe3e6;
+  border-color: #90a4ae;
+}
+
+.tag-btn.selected {
+  background: #2196f3;
+  border-color: #1976d2;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(33, 150, 243, 0.4);
+} */
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-btn {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 2px solid #ddd;
+  background: #f7f7f7;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.25s;
+}
+
+.tag-btn.selected {
+  background: #e8f0ff;
+  border-color: #007bff;
+  color: #080808;
+}
+
+.tags-list {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag-pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Colored tags */
+.tag-pill.Healthy { background: #28a745; }
+.tag-pill.Vaccinated { background: #007bff; }
+.tag-pill.Pregnant { background: #e83e8c; }
+.tag-pill.HighMilkYield { background: #6f42c1; }
+.tag-pill.Calm { background: #17a2b8; }
+.tag-pill.PureBreed { background: #fd7e14; }
+.tag-pill.Trained { background: #20c997; }
+.tag-pill.Young { background: #ffc107; }
+.tag-pill.Old { background: #6c757d; }
